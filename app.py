@@ -35,9 +35,7 @@ def main():
             news_info = {"title": title, "link": link}
             print(news_info)
 
-    for i in range(10):
-        time.sleep(1)  #
-        print(i)
+        time.sleep(1)
 
 
 if __name__ == "__main__":
