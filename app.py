@@ -27,6 +27,7 @@ def top_story_details(story_id):
 def main():
     story_ids = top_stories()
 
+    time.sleep(1)
     for story_id in story_ids:
         story_details = top_story_details(story_id)
         if story_details:
